@@ -1,4 +1,5 @@
 import "../Styles/navbar.css";
+import { GiHamburgerMenu } from "react-icons/gi";
 
 const Navbar = () => {
     return (
@@ -29,6 +30,9 @@ const Navbar = () => {
                 <a href="">
                     <button>Get Demo</button>
                 </a>
+            </div>
+            <div className="hamburger-icon">
+                    <GiHamburgerMenu />
             </div>
         </div>
     )
