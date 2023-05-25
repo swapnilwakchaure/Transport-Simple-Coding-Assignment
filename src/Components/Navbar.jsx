@@ -1,7 +1,12 @@
+import { useState } from "react";
 import "../Styles/navbar.css";
 import { GiHamburgerMenu } from "react-icons/gi";
+import { RxCross1 } from "react-icons/rx";
 
 const Navbar = () => {
+
+    const [showMediaIcons, setShowMediaIcons] = useState(false);
+
     return (
         <div className="main-navbar">
             <div className="main-logo">
@@ -32,7 +37,9 @@ const Navbar = () => {
                 </a>
             </div>
             <div className="hamburger-icon">
-                    <GiHamburgerMenu />
+                <a href="#" onClick={() => setShowMediaIcons(!showMediaIcons)}>
+                    {showMediaIcons ? <RxCross1 /> : <GiHamburgerMenu />}
+                </a>
             </div>
         </div>
     )

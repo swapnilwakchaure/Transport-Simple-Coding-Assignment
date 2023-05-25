@@ -1,0 +1,135 @@
+/* home header section */
+
+.home-section {
+    border: 3px solid red;
+    height: 800px;
+    background: #F9FCFF 0% 0% no-repeat 
+padding-box;
+    opacity: 1;
+
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    gap: 20px;
+}
+
+
+.home-header > h1 {
+    margin: 208px 0px 39px 115px;
+    /* position: relative; */
+    /* top: 208px; */
+    /* left: 115px; */
+    width: 526px;
+    height: 82px;
+    font-size: 38px;
+
+    text-align: left;
+    font: normal normal bold 38px/44px Graphik;
+    letter-spacing: 1.14px;
+    color: #363636;
+    opacity: 1;
+}
+
+
+.home-header-content > p {
+    padding: 0px 0px 0px 115px;
+    /* position: relative; */
+    font-size: 24px;
+    /* top: 330px; */
+    /* left: 115px; */
+    width: 563px;
+    height: 174px;
+
+    text-align: left;
+    font: normal normal normal 24px/32px Graphik;
+    letter-spacing: 1.2px;
+    color: #5D5D6E;
+    opacity: 1;
+}
+
+
+.home-header-buttons {
+    margin: 0px 0px 0px 115px;
+    /* top: 330px; */
+    /* left: 115px; */
+    /* UI Properties */
+    text-align: left;
+    font: normal normal normal 24px/32px Graphik;
+    letter-spacing: 1.2px;
+    color: #5D5D6E;
+    opacity: 1;
+
+    display: flex;
+    gap: 22px;
+}
+
+
+.home-header-buttons > a > button {
+    width: 157px;
+    height: 49px;
+    border: 2px solid #FFA200;
+    border-radius: 8px;
+    color: #FFA200;
+    background: #F9FCFF;
+    font-size: 15px;
+}
+
+.home-header-buttons > a > button:hover {
+    background: #FFA200;
+    color: white;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+
+
+
+/* home images section */
+
+.image1 {
+    display: inline;
+    margin: 59px 0px 0px 100px;
+    /* top: 118px; */
+    /* left: 855px; */
+    width: 141px;
+    height: 140px;
+    border-radius: 50%;
+    /* UI Properties */
+    background: transparent 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 6px #0000004A;
+    opacity: 1;
+}
+
+.image2 {
+    display: inline-block;
+    margin: 80px 0px 0px 0px;
+    /* top: 291px; */
+    /* left: 694px; */
+    width: 161px;
+    height: 162px;
+    border-radius: 50%;
+    /* UI Properties */
+    background: transparent 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 6px #0000004A;
+    opacity: 1;
+}
+
+
+.image3 {
+    display: inline-block;
+    margin: 132px 0px 0px 400px;
+    /* top: 132px; */
+    /* left: 1230px; */
+    width: 113px;
+    height: 113px;
+    border-radius: 50%;
+    /* UI Properties */
+    background: transparent 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 6px #0000004A;
+    opacity: 1;
+}
+
+
+.image4 {
+    display: block;
+    border-radius: 50%;
+}
